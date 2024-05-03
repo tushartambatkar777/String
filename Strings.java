@@ -25,7 +25,7 @@ public class Strings {
     //Access charecters of a String
     String name = "Jacqueline";
     System.out.print(name.charAt(3));
-*/
+
 
     // String function compare
     String s1 = "Tony";
@@ -48,5 +48,15 @@ public class Strings {
     // subString
     String str = "HelloWorld";
     System.out.println(str.substring(0, 5));
+
+
+*/
+    //Declaration
+    StringBuilder sb = new StringBuilder("");
+    for(char ch='a'; ch<='z'; ch++) {
+      sb.append(ch);
+    }
+    System.out.println(sb);
+    System.out.println(sb.length());
   }
 }
